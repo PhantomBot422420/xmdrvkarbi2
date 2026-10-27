@@ -2,7 +2,7 @@
 // Cache-first and versioned: the cache name comes from the sha256 of this build's index.html, so every rebuild
 // installs a fresh cache and deletes the old ones. All paths are relative, so it works under any folder.
 "use strict";
-const CACHE = "cert-study-22495af5da4f2f7a";
+const CACHE = "cert-study-883912e1cc703409";
 const FILES = ["./", "./index.html", "./manifest.webmanifest", "./apple-touch-icon.png", "./icon-192.png", "./icon-512.png", "./icon-maskable-192.png", "./icon-maskable-512.png"];
 self.addEventListener("install", (event) => {
   // cache: "reload" skips the HTTP cache so a new version never caches a stale file from an old one

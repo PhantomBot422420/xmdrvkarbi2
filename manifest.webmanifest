@@ -1,7 +1,7 @@
 {
   "name": "Cert Study",
   "short_name": "Cert Study",
-  "description": "Offline practice for CompTIA A+ Core 1, Core 2 and Network+ (original questions).",
+  "description": "Offline practice for CompTIA A+ Core 1, Core 2, Network+ and Security+ (original questions).",
   "id": "./",
   "start_url": "./",
   "scope": "./",
