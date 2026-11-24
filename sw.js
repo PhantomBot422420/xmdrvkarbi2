@@ -2,7 +2,7 @@
 // Cache-first and versioned: the cache name comes from the sha256 of this build's index.html, so every rebuild
 // installs a fresh cache. Scope namespaces keep sibling project caches intact. All paths are relative.
 "use strict";
-const VERSION = "cert-study-09803d6a830ccf6f";
+const VERSION = "cert-study-e40cdb2263f3b017";
 const SCOPE = new URL(self.registration.scope);
 const CACHE_PREFIX = "cert-study-scope-" + encodeURIComponent(SCOPE.pathname) + ":";
 const CACHE = CACHE_PREFIX + VERSION;
